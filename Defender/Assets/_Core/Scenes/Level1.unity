@@ -1757,7 +1757,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.39173552, y: -0.000000008469207, z: 0.0000000036058765, w: 0.9200779}
+  m_LocalRotation: {x: 0.39173552, y: -0.000000040131628, z: 0.00000001708658, w: 0.9200779}
   m_LocalPosition: {x: -119.82568, y: 148.6, z: -56.943504}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1823,7 +1823,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1025034188}
-  m_LocalRotation: {x: 0.39173552, y: -0.000000008469207, z: 0.0000000036058765, w: 0.9200779}
+  m_LocalRotation: {x: 0.39173552, y: -0.000000040131628, z: 0.00000001708658, w: 0.9200779}
   m_LocalPosition: {x: -119.82568, y: 148.6, z: -56.943504}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2915,9 +2915,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 626305433490650806, guid: b14ade61d7c176540b24621d97f55b8a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -72.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 626305433490650806, guid: b14ade61d7c176540b24621d97f55b8a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -43
+      objectReference: {fileID: 0}
     - target: {fileID: 626305433544989506, guid: b14ade61d7c176540b24621d97f55b8a, type: 3}
       propertyPath: m_Name
       value: Canvas_Money
+      objectReference: {fileID: 0}
+    - target: {fileID: 626305433544989506, guid: b14ade61d7c176540b24621d97f55b8a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 626305433544989510, guid: b14ade61d7c176540b24621d97f55b8a, type: 3}
       propertyPath: m_Pivot.x
@@ -3122,6 +3134,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4849039719746189189, guid: a38557e832e4bf940a9d972f12dbd24e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849039719746189189, guid: a38557e832e4bf940a9d972f12dbd24e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849039719792217404, guid: a38557e832e4bf940a9d972f12dbd24e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849039720285801046, guid: a38557e832e4bf940a9d972f12dbd24e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849039720285801046, guid: a38557e832e4bf940a9d972f12dbd24e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 4849039720474000961, guid: a38557e832e4bf940a9d972f12dbd24e, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3209,6 +3241,14 @@ PrefabInstance:
     - target: {fileID: 4849039720474000965, guid: a38557e832e4bf940a9d972f12dbd24e, type: 3}
       propertyPath: m_Name
       value: Canvas_Health
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849039720474000965, guid: a38557e832e4bf940a9d972f12dbd24e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4849039720980252822, guid: a38557e832e4bf940a9d972f12dbd24e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.00050354004
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a38557e832e4bf940a9d972f12dbd24e, type: 3}
